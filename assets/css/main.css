@@ -210,7 +210,6 @@ h1 {
 @media (min-width: 1440px) {
   .videos__container .video {
     grid-column-end: span 3 !important;
-    background-color: red;
 
   }
   
@@ -285,6 +284,12 @@ h1 {
 
   .sidebar {
     display: none;
+  }
+  .show-sidebar {
+    display: inline;
+    position: fixed;
+    top: 4.4rem;
+    height: auto;
   }
 
 
